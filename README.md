@@ -12,10 +12,12 @@ Dans ce projet, on va implémenter des métriques permettant de mesurer la déri
 ## DATA
 Le jeu de données est décomposé en 4 périodes correspondant aux 4 trimestres de l'année. On trouvere les données correspondant à chaque période dans les fichiers period_0.csv, period_1.csv, ..., period_3.csv.
 chaque fichier contient les variables suivantes : 
-* Target Variable * 
+
+**Target Variable** 
 variable TotalCart : chiffre d'affaire total d'un client sur la période donnée
 
-* Features *
+**Features**
+
 Age : âge du client en années.
 
 Seniority : ancienneté du client en années.
