@@ -1,7 +1,7 @@
 # Data-Drift-Test
 
 ## Contexte du Projet
-*La dérive en apprentissage automatique*, également appelée "drift de données", fait référence à un changement dans les données d'entrée d'un modèle d'apprentissage automatique au fil du temps. Ce changement peut être dû à différents facteurs tels que l'évolution des habitudes des utilisateurs, des changements dans les conditions environnementales, ou encore des erreurs dans les capteurs ou les dispositifs de collecte de données.
+**La dérive en apprentissage automatique**, également appelée "drift de données", fait référence à un changement dans les données d'entrée d'un modèle d'apprentissage automatique au fil du temps. Ce changement peut être dû à différents facteurs tels que l'évolution des habitudes des utilisateurs, des changements dans les conditions environnementales, ou encore des erreurs dans les capteurs ou les dispositifs de collecte de données.
 
 Lorsque les données d'entrée changent, le modèle qui a été entraîné sur des données antérieures peut perdre en précision et en fiabilité. Cela peut se traduire par une diminution de la performance du modèle, voire par une invalidation complète du modèle.
 
@@ -14,22 +14,36 @@ Le jeu de données est décomposé en 4 périodes correspondant aux 4 trimestres
 chaque fichier contient les variables suivantes : 
 * Target Variable * 
 variable TotalCart : chiffre d'affaire total d'un client sur la période donnée
+
 * Features *
 Age : âge du client en années.
+
 Seniority : ancienneté du client en années.
+
 Orders : Nombre de commandes effectuées sur la période précédente.
+
 Items : Nombre d'items commandés sur la période précédente.
+
 AverageDiscount : Réduction moyenne accordée au client sur la période précédente en pourcentage.
+
 TopCategory : Catégorie de produits favorite du client.
+
 BrowsingTime : Temps total passé sur le site web sur la période précédente en secondes.
+
 EmailsOpened : Nombre de mails marketing ouverts par le client sur la période précédente.
+
 SupportInteractions : Nombre d'interactions que le client a eu avec le service client sur la période précédente.
 
 ## Contenu
+
 *Notebook (Python)*
+
 Le fichier contient 4 parties:
 - 1er Partie : 
-  - Entrainement et évaluation de 3 modéles sur les données de la période 0 : Random Forest Regressor, Gradient Boosting Regressor, Rinear Regression.
+  - Entrainement et évaluation de 3 modéles sur les données de la période 0.
+    -  Random Forest Regressor
+    -   Gradient Boosting Regressor
+    -    Rinear Regression.
   - Analyse de Performance de chaque modéle.
 - 2eme Partie : 
   - Entrainement de Gradient Boosting Regressor sur toute la période 0.
