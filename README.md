@@ -10,7 +10,7 @@ La dérive de données est un problème courant dans les applications d'apprenti
 Dans ce projet, on va implémenter des métriques permettant de mesurer la dérive d'un modèle dans un usecase de e-commerce.
 
 ## DATA
-Le jeu de données est décomposé en 4 périodes correspondant aux 4 trimestres de l'année. On trouvere les données correspondant à chaque période dans les fichiers period_0.csv, period_1.csv, ..., period_3.csv.
+Le jeu de données est décomposé en 4 périodes correspondant aux 4 trimestres de l'année (period_0.csv, period_1.csv, period_2.csv period_3.csv).
 chaque fichier contient les variables suivantes : 
 
 **Target Variable** 
