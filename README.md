@@ -14,7 +14,8 @@ Le jeu de données est décomposé en 4 périodes correspondant aux 4 trimestres
 chaque fichier contient les variables suivantes : 
 
 **Target Variable** 
-variable TotalCart : chiffre d'affaire total d'un client sur la période donnée
+
+TotalCart : chiffre d'affaire total d'un client sur la période donnée
 
 **Features**
 
